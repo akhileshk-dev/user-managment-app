@@ -1,0 +1,37 @@
+.userlist-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+th, td{
+    border-bottom: 2px solid #df0909;
+    padding: 10px;
+color: black;
+}
+th{
+    font-weight: 600;
+    font-size: 20px;
+    color: #1c1b1c;
+}
+.btn-td{
+  border-spacing: 10px;
+  border-collapse: separate;
+  border-bottom: none;
+}
+.blocked{
+    color: red;
+}
+.active{
+    color: green;
+}
+.block{
+    background-color: rgb(227, 12, 12);
+}
+.delete{
+    background-color: #df0909;
+}
+.heading-userlist{
+    color: skyblue;
+}
